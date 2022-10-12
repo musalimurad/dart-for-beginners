@@ -23,6 +23,8 @@ void main() {
   print('-------' * 10);
 
   // ===========================
+
+  print(newUser2.toString());
 }
 
 double? controlMoney(double? money) {

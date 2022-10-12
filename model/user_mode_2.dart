@@ -4,8 +4,8 @@ class User2 {
 
   double get money => _money;
 
-  set money(double money) {
-    _money = money;
+  set money(double? money) {
+    _money = money == null ? 0 : money;
   }
 
   late final int? age;
